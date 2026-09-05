@@ -31,6 +31,12 @@ never leaves your computer, and holds at most 10 entries. You can switch the rec
 clear what has been recorded, at any time under **Settings → History**. Switching it off clears
 what has already been recorded as well, rather than only hiding it.
 
+When you search inside archives, the software also records the file names in the archives it has
+already read, so that searching the same folder a second time does not have to reopen every one.
+It records **only archives a search has already read**; it never scans anything on the disk of its
+own accord. That record is likewise kept only on your own computer, and can be switched off or
+cleared in the same place.
+
 **Backup jobs do not store passwords.** An encrypted backup job cannot be run by the task scheduler,
 because there is nobody there to supply the password when it runs.
 

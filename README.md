@@ -34,6 +34,8 @@ XYZip 与 XYZip Pro（以下统称「本软件」）**不收集、不存储、�
 
 本软件还会记住你最近打开过的压缩包，以便在「文件 → 最近打开」中再次打开它们。这份列表就是这些文件的路径，同样保存在你自己电脑上、不会离开这台电脑，最多保留 10 条。你可以随时关闭这项记录，或清空已有的记录：**设置 → 记录**。关闭它会连同已经记下的一起清除，而不只是不再显示。
 
+搜索压缩包时，本软件还会记下已经读过的那些压缩包里有哪些文件名，好让同一个文件夹的第二次搜索不必重新打开每个压缩包。它**只记录搜索时已经读过的压缩包**，不会自己去扫描磁盘上的任何东西。这份记录同样只存在你自己电脑上，可以在同一处关闭或清除。
+
 **备份任务不保存密码。** 加密的备份任务无法由计划任务自动运行，因为运行时没有人可以提供密码。
 
 ### Cookie 与第三方
@@ -86,6 +88,12 @@ from File → Recently opened. That list is the paths of those files. It is kept
 never leaves your computer, and holds at most 10 entries. You can switch the recording off, or
 clear what has been recorded, at any time under **Settings → History**. Switching it off clears
 what has already been recorded as well, rather than only hiding it.
+
+When you search inside archives, the software also records the file names in the archives it has
+already read, so that searching the same folder a second time does not have to reopen every one.
+It records **only archives a search has already read**; it never scans anything on the disk of its
+own accord. That record is likewise kept only on your own computer, and can be switched off or
+cleared in the same place.
 
 **Backup jobs do not store passwords.** An encrypted backup job cannot be run by the task scheduler,
 because there is nobody there to supply the password when it runs.
