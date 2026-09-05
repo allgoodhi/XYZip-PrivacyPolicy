@@ -25,6 +25,12 @@ or their names anywhere.
 The software's settings — interface language, appearance, compression presets, backup jobs — are
 stored in your own user profile on that computer and never leave it.
 
+The software also remembers the archives you opened recently, so that you can open them again
+from File → Recently opened. That list is the paths of those files. It is kept in the same place,
+never leaves your computer, and holds at most 10 entries. You can switch the recording off, or
+clear what has been recorded, at any time under **Settings → History**. Switching it off clears
+what has already been recorded as well, rather than only hiding it.
+
 **Backup jobs do not store passwords.** An encrypted backup job cannot be run by the task scheduler,
 because there is nobody there to supply the password when it runs.
 
